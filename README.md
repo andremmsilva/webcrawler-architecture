@@ -89,7 +89,6 @@ Ensured 99.9% uptime through redundancy:
 
 ## Architectural Views
 
-### Final Views
 The full document includes **30+ architectural views**:
 - **Module Decomposition Views** &mdash; hierarchical module breakdown
 - **Module Uses Views** &mdash; dependency relationships
@@ -99,12 +98,17 @@ The full document includes **30+ architectural views**:
 
 Below is a summary of the C&C Views:
 
+#### Top Level View
 ![Top Level View](./images/toplevel-cc.png)
 ![Top Level View](./images/toplevel-cc-key.png)
-![Top Level View](./images/webcrawler-cc.png)
-![Top Level View](./images/webcrawler-cc-key.png)
-![Top Level View](./images/urlfrontier-kafka-cc.png)
-![Top Level View](./images/urlfrontier-kafka-cc-key.png)
+
+#### WebCrawler
+![WebCrawler View](./images/webcrawler-cc.png)
+![WebCrawler View](./images/webcrawler-cc-key.png)
+
+#### URL Frontier and Kafka Cluster
+![URL Frontier and Kafka Cluster View](./images/urlfrontier-kafka-cc.png)
+![URL Frontier and Kafka Cluster View](./images/urlfrontier-kafka-cc-key.png)
 
 [**Read the full design document**](Group%2032%20-%20Web%20Crawler%20Design.pdf) for all views, detailed rationale, and quality attribute scenario analysis.
 
